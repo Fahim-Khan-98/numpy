@@ -19,3 +19,13 @@
 # print("Cumulative Sum:", aw)
 
 
+
+
+# Shorter of example 1 
+# i also print cell using flat
+
+# import numpy as np
+
+# a = np.arange(15).reshape( 5,3)
+# for cell in a.flat:
+#   print(cell)
