@@ -29,3 +29,20 @@
 # a = np.arange(15).reshape( 5,3)
 # for cell in a.flat:
 #   print(cell)
+
+
+# Example 2  
+# C order
+# import numpy as np
+# a = np.arange(15).reshape( 5,3)
+
+# for x in np.nditer(a, order="C"):
+#   print(x)
+
+
+# Fortan order
+# import numpy as np
+# a = np.arange(15).reshape( 5,3)
+
+# for x in np.nditer(a, order="F"):
+#   print(x)
